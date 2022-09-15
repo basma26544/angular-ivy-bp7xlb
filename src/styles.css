@@ -1,0 +1,16 @@
+head{
+  text-align:center;
+  padding-top:100px;
+
+}
+
+body{
+
+ image-orientation: from-image;
+  background-color: rgba(235, 235, 227, 0.575);
+  background-image: url("http://b2b.weidmuller.com/iadmin/images/SG4_DG_RGB.png");
+  background-position: center;
+  background-size: 13cm;
+  background-repeat:no-repeat;
+  background-blend-mode:lighten;
+}

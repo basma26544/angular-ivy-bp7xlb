@@ -1,0 +1,51 @@
+header
+{
+  background-image:url(https://www.weidmuller.com/en/_layout/images/weidmueller_logo.svg);
+  background-repeat: no-repeat;
+  background-size:30%;
+}
+
+hello
+{font-family: 'serif', Times, serif, 'Times New Roman', Times, serif;
+  font-size: 10px;
+  text-decoration-color: aqua;
+  text-align:center;
+  
+ 
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif, 'Times New Roman', Times, serif;
+  font-size: 10px;
+  font-style:bold;
+  background-color: rgba(245, 150, 25, 0.842);
+  background-blend-mode:lighten;
+  background-size: cover;
+  border-style:solid;
+  border-width:0.1cm;
+  border-color: rgba(160, 158, 158, 0.993);
+  
+}
+.container{
+  margin:10px;
+
+}
+.button-group button {
+  background-color: #a0ada8f3;
+  border: 1px solid rgb(84, 90, 84); 
+  color: white; 
+  padding: 40px 20px; 
+  cursor: pointer; 
+  width: 25%; 
+  display:grid; /* Make the buttons appear below each other */
+}
+
+.button-group button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.button-group button:hover {
+  background-color :rgba(245, 150, 25, 0.836);
+  background-blend-mode:luminosity ;
+}
